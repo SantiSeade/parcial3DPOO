@@ -66,9 +66,9 @@ public class PanelBotones extends JPanel implements ActionListener{
 		
 		String figura = e.getActionCommand();
 		if(figura.equals(CIRCULO)) {
-			this.vPrincipal.pintarFigura(red, green, blue, 1);
-		} else if(figura.equals(CUADRADO)) {
 			this.vPrincipal.pintarFigura(red, green, blue, 0);
+		} else if(figura.equals(CUADRADO)) {
+			this.vPrincipal.pintarFigura(red, green, blue, 1);
 		}
 	}
 	
